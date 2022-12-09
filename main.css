@@ -1,0 +1,364 @@
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+h2,
+h1 {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 57px;
+  letter-spacing: 0.2px;
+  color: #252b42;
+}
+
+.common-paragraph-styles {
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 20px;
+  letter-spacing: 0.2px;
+  color: #737373;
+}
+
+/* Common AND NAVBAR STYLES */
+.home-div {
+  background-image: url(./images/coverbg-cover.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+}
+
+.container {
+  max-width: 1140px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 15px;
+  box-sizing: border-box;
+}
+
+.nav-bar-list {
+  display: flex;
+  padding-top: 36px;
+}
+
+.left-side-ul {
+  margin-right: 117px;
+}
+
+.right-side-ul {
+  display: flex;
+  align-items: center;
+}
+
+.right-side-ul li a {
+  display: inline-block;
+  text-decoration: none;
+  padding: 10px;
+
+  font-family: "Montserrat", sans-serif;
+  font-size: 14px;
+  line-height: 24px;
+  color: #737373;
+}
+.right-side-ul li:hover a {
+  text-decoration: underline;
+  text-decoration-color: rgb(69, 172, 206);
+  text-decoration-thickness: 2px;
+}
+
+.right-side-ul li:active {
+  border: 1px solid rgb(69, 172, 206);
+}
+.header {
+  margin-bottom: 116px;
+}
+/* HOME PAGE ARTICLE STYLE */
+
+.home-page-articles h1,
+p {
+  margin-bottom: 35px;
+}
+
+.home-page-quote-btn {
+  width: 185px;
+  height: 48px;
+
+  border: none;
+  border-radius: 37px;
+  background-color: #ffa62b;
+
+  /* Text */
+
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  color: #fff;
+  margin-right: 10px;
+}
+
+.home-page-learn-more-btn {
+  width: 185px;
+  height: 48px;
+
+  border: 1px solid #00a0c1;
+  border-radius: 37px;
+  background-color: #fff;
+  cursor: pointer;
+}
+
+.home-page-learn-more-btn a {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  color: #00a0c1;
+
+  text-decoration: none;
+  padding: 5px;
+}
+
+/* CARD BOX ROW  */
+
+.card-box {
+  display: flex;
+  column-gap: 30px;
+}
+
+.boxs {
+  width: 328px;
+  height: 210px;
+  background-color: #fff;
+  position: relative;
+  top: 90px;
+  box-shadow: 0px 13px 19px rgba(0, 0, 0, 0.07);
+}
+
+.card-box div:nth-child(3) {
+  background: #00a0c1;
+  color: #fff;
+}
+
+.card-box div:nth-child(3) img {
+  color: #fff;
+}
+
+.card-box div:nth-child(3) p {
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 20px;
+  color: #ffffff;
+}
+
+.box-inside {
+  width: 70%;
+  margin: 35px auto 0;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+/* Middle Page start  */
+
+.case-box-section {
+  display: flex;
+  justify-content: space-between;
+}
+
+.wrap-box {
+  height: auto;
+  background-color: #fafafa;
+}
+.statistic-content {
+  padding-top: 192px;
+}
+.statistic-content header {
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.case-boxs {
+  width: 230px;
+  height: 209px;
+  background: #fff;
+  text-align: center;
+}
+
+.case-boxs img {
+  margin: 40px 0 13px;
+}
+
+.case-boxs h2 {
+  margin-bottom: 13px;
+}
+
+/* ADVICE SECTION */
+
+.advice-section-box-content {
+  padding-bottom: 81px;
+}
+.advice-section-header {
+  text-align: center;
+  margin-top: 205px;
+}
+
+.advice-section-header p {
+  padding: 10px 0 45px 0;
+}
+
+.advice-section-box-content {
+  display: flex;
+  justify-content: space-between;
+}
+
+.advice-box {
+  width: 230px;
+  height: 300px;
+  background: #fff;
+}
+
+.advice-box main {
+  width: 80%;
+  margin: 30px auto 0 auto;
+}
+
+.advice-box main h5 {
+  margin-bottom: 15px;
+}
+
+.box-1 {
+  background-image: url(./images/advise-image-1.png);
+  background-repeat: no-repeat;
+  background-size: 230px 138px;
+  background-position: bottom 0 right 0;
+}
+
+.box-2 {
+  background-image: url(./images/advise-image-2.jpg);
+  background-repeat: no-repeat;
+  background-size: 230px 138px;
+  background-position: bottom 0 right 0;
+}
+
+.box-3 {
+  background-image: url(./images/advise-image-3.jpg);
+  background-repeat: no-repeat;
+  background-size: 230px 138px;
+  background-position: bottom 0 right 0;
+}
+
+.box-4 {
+  background-image: url(./images/advise-image-4.jpg);
+  background-repeat: no-repeat;
+  background-size: 230px 138px;
+  background-position: bottom 0 right 0;
+}
+
+/* Business service section style  */
+
+.business-content {
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+.business-content-header {
+  text-align: center;
+  padding-bottom: 100px;
+}
+
+.business-content-header h2 {
+  padding-bottom: 15px;
+}
+
+.business-content-hero {
+  display: flex;
+}
+
+.content-hero-left {
+  margin-right: 191px;
+}
+.content-hero-right {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+.content-hero-footer .user {
+  display: flex;
+}
+
+.content-hero-footer .user img {
+  position: relative;
+  bottom: 22px;
+  margin-right: 20px;
+}
+
+/* Business section footer */
+
+.busines-content-footer {
+  background: #fafafa;
+}
+
+.company-logos ul {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.company-logos ul li {
+  padding: 50px 40px;
+}
+.search-content-position {
+  position: relative;
+  top: 60px;
+}
+.search-content {
+  width: 968px;
+  margin: 0 auto;
+  background-color: #16697a;
+  padding: 40px;
+  border-radius: 2px;
+  color: #fff;
+
+  display: flex;
+  justify-content: space-between;
+}
+
+.bottom-color {
+  height: 77px;
+  background: #252b42;
+}
+
+.search-box {
+  width: 450px;
+}
+.search-box input {
+  width: 70%;
+  padding: 15px 0;
+  border: none;
+  border-radius: 5px 0 0 5px;
+}
+
+.search-box input::placeholder {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  color: #737373;
+  padding-left: 20px;
+}
+
+.search-box .btn {
+  color: #e6e6e6;
+  background-color: #ffa62b;
+  border: none;
+  padding: 15px;
+
+  border-radius: 0 5px 5px 0;
+}
